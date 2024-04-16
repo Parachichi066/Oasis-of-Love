@@ -108,6 +108,11 @@ html{
 }
 
 
+.logotext{
+    display: inline-block;
+    vertical-align: 85%;
+}
+
 .header .navbar a{
     margin-left: 2rem;
     font-size: 1.7rem;
