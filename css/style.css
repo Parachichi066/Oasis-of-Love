@@ -43,8 +43,10 @@ html{
     text-align: center;
     font-size: 2rem;
     color: var(--Very-Dark-Blue);
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 5rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 
@@ -277,7 +279,7 @@ html{
     align-items: center;
     flex-wrap: wrap;
     gap: 5rem;
-    margin: 3rem 0;
+    margin: 10rem 0;
 }
 
 .features .row .image{
@@ -322,12 +324,12 @@ html{
     padding-bottom: 5rem;
 }
 
-/*.download .box {
+.download .box {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
     transition: all 1s;
-}*/
+}
 
 .box {
     opacity: 0;
@@ -389,7 +391,6 @@ html{
 .footer .box-container .boxx a{
     display: block;
     font-size: 1.5rem;
-    color:var(--light-color);
     padding: 1rem 0;
 }
 
