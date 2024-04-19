@@ -43,7 +43,6 @@ html{
     text-align: center;
     font-size: 2rem;
     color: var(--Very-Dark-Blue);
-    margin-top: 5rem;
     margin-bottom: 5rem;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -52,6 +51,7 @@ html{
 
 .heading h1{
     padding-bottom: 2rem;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -91,7 +91,7 @@ html{
 
 /* navbar sections starts */
 .header{
-    padding: 3rem 9%;
+    padding: 0.8rem 9%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -279,7 +279,6 @@ html{
     align-items: center;
     flex-wrap: wrap;
     gap: 5rem;
-    margin: 10rem 0;
 }
 
 .features .row .image{
@@ -311,12 +310,25 @@ html{
     color: var(--Grayish-Blue);
     padding-bottom: 4rem;
 }
+
+.features .aboutus{
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+
+.features .heading{
+    background-color: #6CDAE7;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+}
+
 /* features section ends */
 
 
-/* downloads section starts  */
+/* medias section starts  */
 
-.download .box-container{
+.box-container{
     display: grid;
     gap: 4rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -324,7 +336,7 @@ html{
     padding-bottom: 5rem;
 }
 
-.download .box {
+.box {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
@@ -344,20 +356,21 @@ html{
     transform: translateX(0%);
 } 
 
-.download .box{
+.box{
     border: 2px solid var(--Soft-Blue);
     box-shadow: var(--Soft-Blue);
     border-radius: .5rem;
     text-align: center;
     padding: 2.5rem;
 }
-.download .box:hover{
+
+.box:hover{
     border: 2px solid var(--Soft-Blue);
     box-shadow: none;
 }
 
 
-.download .box h3{
+.media .box h3{
     font-size: 2rem;
     padding: 1rem 0;
     color: var(--Very-Dark-Blue);
@@ -365,13 +378,13 @@ html{
 
 
 
-.download .box p{
+.media .box p{
     font-size: 1.7rem;
     padding-bottom: 2.5rem;
     color: var(--Grayish-Blue);
 }
 
-/* downloads section ends */
+/* medias section ends */
 
 
 
@@ -441,7 +454,7 @@ html{
         color: white;
     }
 
-    .download .heading h1 {
+    .media .heading h1 {
         color: white;
     }
 
