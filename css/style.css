@@ -278,7 +278,10 @@ html{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 5rem; 
+    background-color: white;
+    padding: 3rem;
+    border-radius: 15px;
 }
 
 .features .row .image{
@@ -288,7 +291,7 @@ html{
 
 .features .row .image img{
     width: 100%;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 
@@ -301,7 +304,7 @@ html{
 .features .row .content h1{
     font-size: 4rem;
     padding: 1rem 0;
-    color: var(--Very-Dark-Blue);
+    color: black;
 }
 
 
@@ -366,7 +369,7 @@ html{
  */
 
 .media .heading h1{
-    color: white;
+    color: black;
 }
 
 
@@ -466,6 +469,9 @@ html{
         color: white;
     }
 
+    .features .row {
+        background-color: var(--Very-Dark-Blue)
+    }
     .media .heading h1 {
         color: white;
     }
