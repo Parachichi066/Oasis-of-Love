@@ -288,6 +288,7 @@ html{
 
 .features .row .image img{
     width: 100%;
+    border-radius: 30px;
 }
 
 
@@ -355,18 +356,22 @@ html{
     filter: blur(0);
     transform: translateX(0%);
 } 
-
-.box{
-    border: 2px solid var(--Soft-Blue);
-    box-shadow: var(--Soft-Blue);
-    border-radius: .5rem;
-    text-align: center;
-    padding: 2.5rem;
-}
+/* 
 
 .box:hover{
-    border: 2px solid var(--Soft-Blue);
+    border: 2px solid #6CDAE7;
     box-shadow: none;
+    border-radius: 30px;
+}
+ */
+
+.media .heading h1{
+    color: white;
+}
+
+
+.media .heading{
+    margin-bottom: 0;
 }
 
 
@@ -383,6 +388,13 @@ html{
     padding-bottom: 2.5rem;
     color: var(--Grayish-Blue);
 }
+
+.media .box-container .box img{
+    flex: 1 1 45rem;
+    width: 100%;
+    border-radius: 30px;
+}
+
 
 /* medias section ends */
 
