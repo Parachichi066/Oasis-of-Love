@@ -323,7 +323,7 @@ html{
 .features .heading{
     background-color: #6CDAE7;
     border-radius: 15px;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -559,5 +559,9 @@ html{
     
     h1 {
         color: white;
+    }
+
+    .logocolor{
+        filter: invert(1);
     }
 }
